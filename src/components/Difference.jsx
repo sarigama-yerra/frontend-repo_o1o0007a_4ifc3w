@@ -28,8 +28,8 @@ export default function Difference() {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="group rounded-xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-400 to-cyan-400 flex items-center justify-center text-slate-900">
-                <Icon />
+              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-600 to-yellow-400 flex items-center justify-center text-slate-900">
+                <Icon className="text-slate-900" />
               </div>
               <h3 className="mt-4 text-xl font-semibold text-white">{title}</h3>
               <p className="mt-2 text-slate-300">{desc}</p>
